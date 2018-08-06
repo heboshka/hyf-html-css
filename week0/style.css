@@ -1,0 +1,105 @@
+
+      body{
+  background-color:#e6f2ff;
+      }
+.titl{
+  color: #0059b3;
+  font : bold ;
+  font-family: fantasy;
+  text-align: center;
+   }
+h1.titl{
+  font-size: 70px;
+}
+#first-photo{
+  width: 350px;  
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+.intro{
+  font-family: Arial;
+  font-size: 18px;
+  color: #0066cc;
+   text-align: justify;
+   }
+div .titl
+{
+  text-align: left;
+  border: dashed #4da6ff 5px;
+  display:inline;
+}
+.item1{
+  color:#248f8f;
+  font:  35px Times New Roman bold;
+  text-decoration: underline;
+}
+.paragraph{
+  color: #0f3d3d;
+ font-size: 20px ;
+  font-family:serif;
+  text-align: justify;
+}
+#nd-img{  
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+}
+.tab{
+  border: 0px;
+  margin-left:auto; 
+    margin-right:auto;
+  
+}
+.bangkok-img{
+   border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+     width: 600px;
+   }
+.phuket-img{
+  border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+     width: 400px;
+  Height: 300px;
+}
+.phuket-tab{
+  font-size:30px;
+  color: #660066;
+  font-family: monospace;
+  }
+#tbp{
+  border: 0px;
+  margin-left:auto; 
+    margin-right:auto;
+}
+.pat-li{
+  font-size : 30px;
+  color: #4d0026;
+  font-family: courier;
+  font-weight: bold;
+}
+.patt-img{
+  width: 200px;  
+  float: left;
+  margin-right: 20px;
+ 
+} 
+.pattaya-p{
+  font-size: 18px;
+  color: #b30059;
+  font-family: courier;
+   text-align: justify;
+}
+#thailand-map{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#final h2{
+  border: none;
+}
