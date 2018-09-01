@@ -1,0 +1,373 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.logo-image {
+  display: block;
+}
+.logo-image div {
+  margin: 0 0 0 50%;
+}
+.logo-image img {
+  margin: 0 0 0 -25px;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 1200px;
+  margin: auto;
+}
+#menu {
+  background-color: #01689b;
+  padding: 0 25px;
+}
+.menu-items {
+  flex: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+.menu-items li {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.menu-items li:first-of-type {
+  margin-right: auto;
+  font-weight: normal;
+}
+.menu-items li a {
+  display: block;
+  color: white;
+  padding: 15px;
+}
+.menu-items li a:hover {
+  text-decoration: underline;
+}
+#menu button {
+  display: none;
+justify-content: center;
+    align-items: center;
+    border: none;
+    width: 48px;
+    height: 48px;
+    background: none;
+    font-size: 24px;
+    color: #fff;
+    outline: none;
+}
+#slider {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./slider.jpg);
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.paragraphs {
+  box-sizing: border-box;
+  list-style-type: none;
+  background-color: white;
+  width: 33.33%;
+  padding: 30px;
+  margin: 0 0 0 25px;
+}
+.paragraphs li {
+  margin: 0 0 15px 15px;
+}
+.paragraphs li:last-of-type {
+  margin: 0 0 0 15px;
+}
+.paragraphs a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #01689b;
+}
+.paragraphs a:hover {
+  color: #154273;
+  text-decoration: underline;
+}
+.paragraphs a:before {
+  content: '\f105';
+  position: absolute;
+  display: inline-block;
+  margin-left: -15px;
+  font: bold normal normal 16px/1 FontAwesome;
+}
+.search-box {
+  width: 33.33%;
+  margin: 0 25px 0 0;
+}
+.search-box form {
+  display: flex;
+  align-items: center;
+  flex: 33.33%;
+}
+.input-box {
+  box-sizing: border-box;
+  border: none;
+  flex: calc(100% - 48px);
+  height: 48px;
+  padding: 10px;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 20px;
+}
+.search-symbol {
+  border: none;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  background-color: #000;
+  color: white;
+}
+#main {
+  padding: 25px;
+  background-color: #f3f3f3;
+}
+.fixed-art {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 15px;
+  color: #01689b;
+}
+.art-title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.fixed-art:hover .art-title {
+  text-decoration: underline;
+}
+.summary {
+  margin: 10px 0;
+  padding: 0;
+  color: black;
+  line-height: 20px;
+}
+#second-part {
+  padding: 25px;
+}
+.second {
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 15px;
+}
+.second-a {
+  color: #000;
+}
+.second-image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.second-title {
+  margin: 0;
+  padding: 12px 0;
+  color: #01689b;
+  font-size: 20px;
+  font-weight: bold;
+}
+.second-a:hover .second-title {
+  text-decoration: underline;
+}
+.second-summary {
+  line-height: 20px;
+}
+hr {
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+  width: 100%;
+}
+#nieuws {
+  padding: 25px;
+}
+#nieuws h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0 15px;
+}
+.Nieuws-art {
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 15px;
+  color: #000;
+}
+.Nieuws-title {
+  color: #01689b;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.Nieuws-art:hover .Nieuws-title {
+  text-decoration: underline;
+}
+.Nieuws-art h4 {
+  font-weight: bold;
+}
+.nieuws-summary {
+  line-height: 20px;
+}
+#tails .container {
+  justify-content: flex-start;
+}
+.tail {
+  box-sizing: border-box;
+  width: 33.33%;
+  margin: 0 0 20px;
+  padding: 15px;
+  color: #000;
+}
+.tail > div {
+  box-sizing: border-box;
+  border: 3px solid #CBD2E3;
+  height: 100%;
+  padding: 15px;
+  text-align: center; 
+}
+.tail > div > h2, .tail > div > p {
+  margin: 0;
+}
+#footer {
+  background-color: #01689b;
+}
+#footer h2 {
+  box-sizing: border-box;
+  flex: 60%;
+  padding: 40px 0 0 20px;
+  font-size: 24px;
+  font-style: italic;
+  color: #fff;
+}
+.help {
+  flex: 20%;
+  list-style-type: none;
+  margin: 0;
+  padding: 60px 0px 60px 0;
+  color: #fff;
+}
+.help-choice {
+  margin: 0;
+  padding: 5px;
+}
+.help-choice:nth-child(1) {
+  font-size: 22px;
+  font-family: Verdana;
+}
+.help-choice a:hover {
+  text-decoration: underline;
+}
+.help-url {
+  color: #fff;
+  font-size: 14px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.footer1 {
+  background-color: #fff;
+}
+.lan {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 30px 0;
+  color: #000;
+}
+.lan .help-url {
+  display: block;
+  color: #01689b;
+  border: 1px solid #b0c8d4;
+  margin: 6px;
+  padding: 9px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.lan .help-choice:nth-child(1) {
+  margin: 10px;
+  padding: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.lan .help-choice a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 942px;
+    width: 942px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  #menu, #main, #second-part, #nieuws {
+    padding: 0;
+  }
+  .fixed-art, .second, .Nieuws-art, .tail {
+    width: 50%;
+  }
+  #footer h2 {
+    flex: 50%;
+  }
+  .help {
+    flex: 25%;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  #menu button {
+    display: inline-flex;
+      }
+  .menu-items {
+    flex: 50%;
+  }
+  .menu-items li:not(:first-of-type) {
+    display: none;
+  }
+  .paragraphs {
+    width: 100%;
+    order: 1;
+    margin: 0;
+  }
+  .search-box {
+    width: 100%;
+    order: 0;
+    margin: 0 0 25px;
+  }
+  .fixed-art {
+    width: 100%;
+  }
+  #footer h2 {
+    flex: 100%;
+  }
+  .help {
+    box-sizing: border-box;
+    flex: 50%;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .second, .Nieuws-art, .tail {
+    width: 100%;
+  }
+}
